@@ -81,7 +81,7 @@ function compile_css {
     cd ${FRAMEWORK_DIR}
 
     # Install node stuff
-    npm install 2> /dev/null
+    npm install
 
     # Compile CSS and docs
     node_modules/gulp/bin/gulp.js sasslint sass
